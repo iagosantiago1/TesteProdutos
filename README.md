@@ -56,6 +56,9 @@ http://localhost:8080/categorias - Lista categorias
 3- Clique com botão direito em index.html;
 4- Selecione "Open with Live Server" e ele será aberto no seu navegador.
 
+Link do vídeo:
+https://drive.google.com/file/d/1V5TkTtYRsB560PS0zPbKrRkXwgFZWNKh/view?usp=sharing
+
 **Considerações**
 Esse foi um projeto bem desafiador, principalmente na parte do backend, tive que pegar java quase que do zero pois não tinha muita familiaridade com a linguagem, quanto ao banco de dados e o frontend foi mais tranquilo.
 Gostei muito de tentar resolver esse desafio e espero evoluir cada vez mais.
