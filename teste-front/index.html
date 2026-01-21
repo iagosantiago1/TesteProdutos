@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/responsivo-index.css">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+
+<h2>Lista de Produtos</h2>
+
+<a href="cadastro-form.html" class="botao-link">+ Adicionar Produto</a>
+
+<select id="filtroCategoria" onchange="listarProdutos()"></select>
+
+<table>
+    <thead>
+        <tr>
+            <th class="id-table">ID</th> 
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+            <th>Categoria</th>
+            <th class="acoes">Ações</th>
+        </tr>
+    </thead>
+    <tbody id="tabelaProdutos"></tbody>
+</table>
+
+<div class="modal" id="modalProduto"></div>
+
+<script src="js/config.js"></script>
+<script src="js/produtos/modal-produto.js"></script>
+<script src="js/produtos/index.js"></script>
+</body>
+</html>
