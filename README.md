@@ -43,10 +43,10 @@ CREATE DATABASE TesteP;
 
 1- Verificar no arquivo application.yml se a senha do seu postgre está igual a do application.yml, se não estiver, altere para sua senha;
 
-2- Quando rodar a aplicação o servidor deve roda em "localhost:8080"
-    Para teste use:
-    http://localhost:8080/produtos - Lista produtos
-    http://localhost:8080/categorias - Lista categorias
+2- Quando rodar a aplicação o servidor deve roda em "localhost:8080";
+Para teste use:
+http://localhost:8080/produtos - Lista produtos
+http://localhost:8080/categorias - Lista categorias
 
 
 **No Frontend**
