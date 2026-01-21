@@ -56,6 +56,10 @@ http://localhost:8080/categorias - Lista categorias
 3- Clique com botão direito em index.html;
 4- Selecione "Open with Live Server" e ele será aberto no seu navegador.
 
+**No Banco de Dados**
+
+1- Porta padrão: localhost/5432
+
 Link do vídeo:
 https://drive.google.com/file/d/1V5TkTtYRsB560PS0zPbKrRkXwgFZWNKh/view?usp=sharing
 
