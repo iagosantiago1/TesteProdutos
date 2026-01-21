@@ -21,7 +21,8 @@ CREATE INDEX idx_produto_categoria
 INSERT INTO categorias (nome, descricao) VALUES
 ('Eletrônicos', 'Produtos eletrônicos em geral'),
 ('Alimentos', 'Produtos alimentícios'),
-('Vestuário', 'Roupas e acessórios');
+('Vestuário', 'Roupas e acessórios'),
+('Geral', 'Produtos em geral');
 
 INSERT INTO produtos (nome, preco, quantidade_estoque, data_cadastro, categoria_id) VALUES
 ('Iphone 12', 2500.00, 15, NOW(), 1),
@@ -37,3 +38,4 @@ INSERT INTO produtos (nome, preco, quantidade_estoque, data_cadastro, categoria_
 ('Coturno', 250.00, 12, NOW(), 3),
 
 ('Chocolate', 6.90, 100, NOW(), 2);
+
